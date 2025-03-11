@@ -1,8 +1,51 @@
-# React + Vite
+# 🌤 Weather App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React.js** weather application that fetches real-time weather data using the **OpenWeatherMap API**. Users can search for any city to view its current temperature, humidity, wind speed, and location coordinates, with dynamic weather icons.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
+
+✅ **Search & Real-Time Weather Fetching**  
+
+- Enter a city name to get instant weather updates.  
+- Press **Enter** or click the **Search** button to fetch data.  
+- Default city: **Chennai** (loads on startup).  
+
+✅ **Live Weather Data**  
+
+- 🌡 **Temperature** (°C)  
+- 📍 **City & Country**  
+- 🌎 **Latitude & Longitude**  
+- 🌬 **Wind Speed**  
+- 💧 **Humidity Level**  
+
+✅ **Dynamic Weather Icons**  
+
+- ☀ Clear Sky  
+- ☁ Cloudy  
+- 🌧 Drizzle / Rain  
+- ❄ Snow  
+- Icons change based on **live weather conditions**.  
+
+✅ **React Hooks for State Management**  
+
+- **`useState`** for managing weather data.  
+- **`useEffect`** to fetch default city data on load.  
+
+✅ **User-Friendly UI & Design**  
+
+- 📱 **Fully Responsive** – adapts to all screen sizes.  
+- 🎨 **Modern UI** – styled with **CSS** (`flexbox`, rounded edges, and clean typography).  
+- ✨ **Minimalist Design** – soft colors & intuitive layout.  
+
+---
+
+## 🛠 Tech Stack  
+
+- **React.js** (Functional Components, Hooks)  
+- **CSS** (Custom Styling)  
+- **OpenWeatherMap API** (Weather Data Fetching)  
+
+---
+
