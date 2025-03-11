@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", serif;
+    }
+
+body{
+    background-color: darkslategray;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    
+    
+}
+.input-container{
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid;
+    color: aqua;
+    overflow: hidden;
+}
+
+.cityInput{
+    flex: 1;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+button{
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 10px;
+    background-color: burlywood;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.image{
+    text-align: center;
+    height: 150px;
+    margin: 30px;
+}
+.image img{
+    width: 160px;
+    height: 160px;
+}
+
+.temp ,
+.city, 
+.country{
+    margin: 5px;
+    font-size: 35px;
+    color: #333;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.temp{
+    font-weight: 600;
+}
+
+.city{
+    color: yellowgreen;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.country{
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
+}
+
+.cord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.cord div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.cord div span{
+    font-size: 15px;
+}
+
+.humidityprecent, .windspeed, .cord div span:nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    padding-top: 5px;
+}
+
+.dataContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.element{
+    text-align: center;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+}
